@@ -10,6 +10,7 @@ namespace R5T.T0190
     /// Strongly-types a string as a local directory path.
     /// <para>Local directory paths point to locations on the local file-system.</para>
     /// </summary>
+    /// <inheritdoc cref="INetworkDirectoryPath" path="/remarks"/>
     [StrongTypeMarker]
     public interface ILocalDirectoryPath : IStrongTypeMarker,
         IDirectoryPath
